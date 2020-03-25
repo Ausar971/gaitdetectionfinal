@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B161B4B4956FA965B5B8CB1 /* libPods-gaitdetectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E146119DDCC9F3F2023456A /* libPods-gaitdetectionTests.a */; };
+		8DE0BABE1EC7A67896E19C9E /* libPods-gaitdetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 389588BA2A394C7900F39A60 /* libPods-gaitdetection.a */; };
+		8F66F0C4241C0CE8004EA743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F0C3241C0CE8004EA743 /* AppDelegate.swift */; };
+		8F66F0C6241C0CE9004EA743 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F0C5241C0CE9004EA743 /* SceneDelegate.swift */; };
+		8F66F0C8241C0CE9004EA743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F0C7241C0CE9004EA743 /* ViewController.swift */; };
+		8F66F0CB241C0CE9004EA743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F66F0C9241C0CE9004EA743 /* Main.storyboard */; };
+		8F66F0CD241C0CEA004EA743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F66F0CC241C0CEA004EA743 /* Assets.xcassets */; };
+		8F66F0D0241C0CEA004EA743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F66F0CE241C0CEA004EA743 /* LaunchScreen.storyboard */; };
+		8F66F0DB241C0CEA004EA743 /* gaitdetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F0DA241C0CEA004EA743 /* gaitdetectionTests.swift */; };
+		8F66F0E6241C0CEA004EA743 /* gaitdetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F0E5241C0CEA004EA743 /* gaitdetectionUITests.swift */; };
+		DF7082D4F2A4717A6948A811 /* libPods-gaitdetection-gaitdetectionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16537B04D929050AE4D7B0AE /* libPods-gaitdetection-gaitdetectionUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F66F0D7241C0CEA004EA743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F66F0B8241C0CE8004EA743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F66F0BF241C0CE8004EA743;
+			remoteInfo = gaitdetection;
+		};
+		8F66F0E2241C0CEA004EA743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F66F0B8241C0CE8004EA743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F66F0BF241C0CE8004EA743;
+			remoteInfo = gaitdetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16537B04D929050AE4D7B0AE /* libPods-gaitdetection-gaitdetectionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaitdetection-gaitdetectionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6028486340838299F03081 /* Pods-gaitdetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaitdetection.debug.xcconfig"; path = "Target Support Files/Pods-gaitdetection/Pods-gaitdetection.debug.xcconfig"; sourceTree = "<group>"; };
+		30A587FAF049B00C51DA3199 /* Pods-gaitdetectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaitdetectionTests.debug.xcconfig"; path = "Target Support Files/Pods-gaitdetectionTests/Pods-gaitdetectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		389588BA2A394C7900F39A60 /* libPods-gaitdetection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaitdetection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E146119DDCC9F3F2023456A /* libPods-gaitdetectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaitdetectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69795868D64FD69FDA63E4E0 /* Pods-gaitdetection-gaitdetectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaitdetection-gaitdetectionUITests.release.xcconfig"; path = "Target Support Files/Pods-gaitdetection-gaitdetectionUITests/Pods-gaitdetection-gaitdetectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F2E9292241C265900F33233 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F0C0241C0CE8004EA743 /* gaitdetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gaitdetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F0C3241C0CE8004EA743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F66F0C5241C0CE9004EA743 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F66F0C7241C0CE9004EA743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F66F0CA241C0CE9004EA743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F66F0CC241C0CEA004EA743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F66F0CF241C0CEA004EA743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F66F0D1241C0CEA004EA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F66F0D6241C0CEA004EA743 /* gaitdetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaitdetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F0DA241C0CEA004EA743 /* gaitdetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaitdetectionTests.swift; sourceTree = "<group>"; };
+		8F66F0DC241C0CEA004EA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F66F0E1241C0CEA004EA743 /* gaitdetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaitdetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66F0E5241C0CEA004EA743 /* gaitdetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaitdetectionUITests.swift; sourceTree = "<group>"; };
+		8F66F0E7241C0CEA004EA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6EEB099F1ACFAE8ABC9E04 /* Pods-gaitdetection-gaitdetectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaitdetection-gaitdetectionUITests.debug.xcconfig"; path = "Target Support Files/Pods-gaitdetection-gaitdetectionUITests/Pods-gaitdetection-gaitdetectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE9CD1DF0DBE9E8C2764F44B /* Pods-gaitdetectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaitdetectionTests.release.xcconfig"; path = "Target Support Files/Pods-gaitdetectionTests/Pods-gaitdetectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAFF78A98E635BF02A936774 /* Pods-gaitdetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaitdetection.release.xcconfig"; path = "Target Support Files/Pods-gaitdetection/Pods-gaitdetection.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F66F0BD241C0CE8004EA743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0BABE1EC7A67896E19C9E /* libPods-gaitdetection.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F0D3241C0CEA004EA743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B161B4B4956FA965B5B8CB1 /* libPods-gaitdetectionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F0DE241C0CEA004EA743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7082D4F2A4717A6948A811 /* libPods-gaitdetection-gaitdetectionUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E87FFE33BFA2F3504366E3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C6028486340838299F03081 /* Pods-gaitdetection.debug.xcconfig */,
+				DAFF78A98E635BF02A936774 /* Pods-gaitdetection.release.xcconfig */,
+				BB6EEB099F1ACFAE8ABC9E04 /* Pods-gaitdetection-gaitdetectionUITests.debug.xcconfig */,
+				69795868D64FD69FDA63E4E0 /* Pods-gaitdetection-gaitdetectionUITests.release.xcconfig */,
+				30A587FAF049B00C51DA3199 /* Pods-gaitdetectionTests.debug.xcconfig */,
+				CE9CD1DF0DBE9E8C2764F44B /* Pods-gaitdetectionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F66F0B7241C0CE8004EA743 = {
+			isa = PBXGroup;
+			children = (
+				8F66F0C2241C0CE8004EA743 /* gaitdetection */,
+				8F66F0D9241C0CEA004EA743 /* gaitdetectionTests */,
+				8F66F0E4241C0CEA004EA743 /* gaitdetectionUITests */,
+				8F66F0C1241C0CE8004EA743 /* Products */,
+				8E87FFE33BFA2F3504366E3F /* Pods */,
+				ED1173DD121F0178FAA50CA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F66F0C1241C0CE8004EA743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F0C0241C0CE8004EA743 /* gaitdetection.app */,
+				8F66F0D6241C0CEA004EA743 /* gaitdetectionTests.xctest */,
+				8F66F0E1241C0CEA004EA743 /* gaitdetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F66F0C2241C0CE8004EA743 /* gaitdetection */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F0C3241C0CE8004EA743 /* AppDelegate.swift */,
+				8F66F0C5241C0CE9004EA743 /* SceneDelegate.swift */,
+				8F66F0C7241C0CE9004EA743 /* ViewController.swift */,
+				8F66F0C9241C0CE9004EA743 /* Main.storyboard */,
+				8F66F0CC241C0CEA004EA743 /* Assets.xcassets */,
+				8F66F0CE241C0CEA004EA743 /* LaunchScreen.storyboard */,
+				8F66F0D1241C0CEA004EA743 /* Info.plist */,
+			);
+			path = gaitdetection;
+			sourceTree = "<group>";
+		};
+		8F66F0D9241C0CEA004EA743 /* gaitdetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F0DA241C0CEA004EA743 /* gaitdetectionTests.swift */,
+				8F66F0DC241C0CEA004EA743 /* Info.plist */,
+			);
+			path = gaitdetectionTests;
+			sourceTree = "<group>";
+		};
+		8F66F0E4241C0CEA004EA743 /* gaitdetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F66F0E5241C0CEA004EA743 /* gaitdetectionUITests.swift */,
+				8F66F0E7241C0CEA004EA743 /* Info.plist */,
+			);
+			path = gaitdetectionUITests;
+			sourceTree = "<group>";
+		};
+		ED1173DD121F0178FAA50CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F2E9292241C265900F33233 /* Alamofire.framework */,
+				389588BA2A394C7900F39A60 /* libPods-gaitdetection.a */,
+				16537B04D929050AE4D7B0AE /* libPods-gaitdetection-gaitdetectionUITests.a */,
+				3E146119DDCC9F3F2023456A /* libPods-gaitdetectionTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F66F0BF241C0CE8004EA743 /* gaitdetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66F0EA241C0CEA004EA743 /* Build configuration list for PBXNativeTarget "gaitdetection" */;
+			buildPhases = (
+				6912E243F4AED0939724A8E4 /* [CP] Check Pods Manifest.lock */,
+				8F66F0BC241C0CE8004EA743 /* Sources */,
+				8F66F0BD241C0CE8004EA743 /* Frameworks */,
+				8F66F0BE241C0CE8004EA743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gaitdetection;
+			productName = gaitdetection;
+			productReference = 8F66F0C0241C0CE8004EA743 /* gaitdetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F66F0D5241C0CEA004EA743 /* gaitdetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66F0ED241C0CEA004EA743 /* Build configuration list for PBXNativeTarget "gaitdetectionTests" */;
+			buildPhases = (
+				045DE21D425E56338B5110EA /* [CP] Check Pods Manifest.lock */,
+				8F66F0D2241C0CEA004EA743 /* Sources */,
+				8F66F0D3241C0CEA004EA743 /* Frameworks */,
+				8F66F0D4241C0CEA004EA743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F66F0D8241C0CEA004EA743 /* PBXTargetDependency */,
+			);
+			name = gaitdetectionTests;
+			productName = gaitdetectionTests;
+			productReference = 8F66F0D6241C0CEA004EA743 /* gaitdetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F66F0E0241C0CEA004EA743 /* gaitdetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66F0F0241C0CEA004EA743 /* Build configuration list for PBXNativeTarget "gaitdetectionUITests" */;
+			buildPhases = (
+				F5640ADDBAA24F3B7AF5CD27 /* [CP] Check Pods Manifest.lock */,
+				8F66F0DD241C0CEA004EA743 /* Sources */,
+				8F66F0DE241C0CEA004EA743 /* Frameworks */,
+				8F66F0DF241C0CEA004EA743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F66F0E3241C0CEA004EA743 /* PBXTargetDependency */,
+			);
+			name = gaitdetectionUITests;
+			productName = gaitdetectionUITests;
+			productReference = 8F66F0E1241C0CEA004EA743 /* gaitdetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F66F0B8241C0CE8004EA743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Immobile Computing";
+				TargetAttributes = {
+					8F66F0BF241C0CE8004EA743 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8F66F0D5241C0CEA004EA743 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8F66F0BF241C0CE8004EA743;
+					};
+					8F66F0E0241C0CEA004EA743 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8F66F0BF241C0CE8004EA743;
+					};
+				};
+			};
+			buildConfigurationList = 8F66F0BB241C0CE8004EA743 /* Build configuration list for PBXProject "gaitdetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F66F0B7241C0CE8004EA743;
+			productRefGroup = 8F66F0C1241C0CE8004EA743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F66F0BF241C0CE8004EA743 /* gaitdetection */,
+				8F66F0D5241C0CEA004EA743 /* gaitdetectionTests */,
+				8F66F0E0241C0CEA004EA743 /* gaitdetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F66F0BE241C0CE8004EA743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F0D0241C0CEA004EA743 /* LaunchScreen.storyboard in Resources */,
+				8F66F0CD241C0CEA004EA743 /* Assets.xcassets in Resources */,
+				8F66F0CB241C0CE9004EA743 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F0D4241C0CEA004EA743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F0DF241C0CEA004EA743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045DE21D425E56338B5110EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaitdetectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6912E243F4AED0939724A8E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaitdetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5640ADDBAA24F3B7AF5CD27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaitdetection-gaitdetectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F66F0BC241C0CE8004EA743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F0C8241C0CE9004EA743 /* ViewController.swift in Sources */,
+				8F66F0C4241C0CE8004EA743 /* AppDelegate.swift in Sources */,
+				8F66F0C6241C0CE9004EA743 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F0D2241C0CEA004EA743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F0DB241C0CEA004EA743 /* gaitdetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F66F0DD241C0CEA004EA743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66F0E6241C0CEA004EA743 /* gaitdetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F66F0D8241C0CEA004EA743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F66F0BF241C0CE8004EA743 /* gaitdetection */;
+			targetProxy = 8F66F0D7241C0CEA004EA743 /* PBXContainerItemProxy */;
+		};
+		8F66F0E3241C0CEA004EA743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F66F0BF241C0CE8004EA743 /* gaitdetection */;
+			targetProxy = 8F66F0E2241C0CEA004EA743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F66F0C9241C0CE9004EA743 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F66F0CA241C0CE9004EA743 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F66F0CE241C0CEA004EA743 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F66F0CF241C0CEA004EA743 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F66F0E8241C0CEA004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F66F0E9241C0CEA004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F66F0EB241C0CEA004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6028486340838299F03081 /* Pods-gaitdetection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75JSZFDNEH;
+				INFOPLIST_FILE = gaitdetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMC.gaitdetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F66F0EC241C0CEA004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFF78A98E635BF02A936774 /* Pods-gaitdetection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75JSZFDNEH;
+				INFOPLIST_FILE = gaitdetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMC.gaitdetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F66F0EE241C0CEA004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A587FAF049B00C51DA3199 /* Pods-gaitdetectionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75JSZFDNEH;
+				INFOPLIST_FILE = gaitdetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMC.gaitdetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaitdetection.app/gaitdetection";
+			};
+			name = Debug;
+		};
+		8F66F0EF241C0CEA004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9CD1DF0DBE9E8C2764F44B /* Pods-gaitdetectionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75JSZFDNEH;
+				INFOPLIST_FILE = gaitdetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMC.gaitdetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaitdetection.app/gaitdetection";
+			};
+			name = Release;
+		};
+		8F66F0F1241C0CEA004EA743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6EEB099F1ACFAE8ABC9E04 /* Pods-gaitdetection-gaitdetectionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75JSZFDNEH;
+				INFOPLIST_FILE = gaitdetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMC.gaitdetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gaitdetection;
+			};
+			name = Debug;
+		};
+		8F66F0F2241C0CEA004EA743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69795868D64FD69FDA63E4E0 /* Pods-gaitdetection-gaitdetectionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75JSZFDNEH;
+				INFOPLIST_FILE = gaitdetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMC.gaitdetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gaitdetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F66F0BB241C0CE8004EA743 /* Build configuration list for PBXProject "gaitdetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F0E8241C0CEA004EA743 /* Debug */,
+				8F66F0E9241C0CEA004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66F0EA241C0CEA004EA743 /* Build configuration list for PBXNativeTarget "gaitdetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F0EB241C0CEA004EA743 /* Debug */,
+				8F66F0EC241C0CEA004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66F0ED241C0CEA004EA743 /* Build configuration list for PBXNativeTarget "gaitdetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F0EE241C0CEA004EA743 /* Debug */,
+				8F66F0EF241C0CEA004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66F0F0241C0CEA004EA743 /* Build configuration list for PBXNativeTarget "gaitdetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66F0F1241C0CEA004EA743 /* Debug */,
+				8F66F0F2241C0CEA004EA743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F66F0B8241C0CE8004EA743 /* Project object */;
+}

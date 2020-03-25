@@ -1,0 +1,6 @@
+module Pods_gaitdetection_gaitdetectionUITests {
+  umbrella header "Pods-gaitdetection-gaitdetectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
